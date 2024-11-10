@@ -1,0 +1,11 @@
+Exercício 2: Estilizando Links com Pseudo-Classes
+
+Objetivo: Estudar e aplicar as pseudo-classes :link, :visited, :hover e :active para controlar a aparência dos links.
+
+Tarefas:
+
+Crie vários links <a> em uma página HTML, cada um apontando para URLs fictícias ou verdadeiras.
+Use o CSS fornecido no trecho para definir estilos diferentes para os estados :link, :visited, :hover e :active.
+Teste cada link, clicando, passando o mouse sobre eles e observando as mudanças nas cores e sublinhado de acordo com o estado.
+Modifique a cor e o estilo do texto em cada pseudo-classe para entender o comportamento visual de cada uma.
+Desafio Extra: Altere o estilo do :hover para adicionar uma borda ao redor do link ou mudar o tamanho da fonte temporariamente.

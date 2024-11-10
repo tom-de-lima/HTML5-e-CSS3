@@ -1,0 +1,11 @@
+Exercício 1: Ancoragem e Navegação Interna
+
+Objetivo: Criar e configurar links de navegação interna para entender o funcionamento dos elementos de ancoragem (<a> com href) e IDs.
+
+Tarefas:
+
+Crie uma página HTML com três seções distintas, cada uma com um título (<h2> ou <h3>) e um conteúdo simples.
+No topo da página, crie um menu com links para cada uma das seções usando <a href="#idDaSecao">.
+Aplique IDs exclusivos a cada uma das seções correspondentes no conteúdo da página.
+Teste a navegação para verificar se cada link leva à seção correta.
+Dica: Observe como o link <a href="#secao1">Ir para Seção 1</a> funciona e utilize esse modelo para navegar pelas demais seções.

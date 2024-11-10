@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+a:hover{
+    color: #FF0000;
+    font-size: 16x;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:active{
+    color: #000000;
+    font-size: 12px;
+}
+
+a:visited{
+    color: #800080;
+    font-size: 14px;
+}
