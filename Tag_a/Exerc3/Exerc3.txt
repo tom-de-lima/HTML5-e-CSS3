@@ -2,7 +2,7 @@ Exercício 3: Adicionando Estilo e Interatividade ao Menu
 
 Objetivo: Consolidar o uso das pseudo-classes para criar um menu interativo de navegação interna.
 
-Tarefas:
+Tarefas:.
 
 Crie um menu com três links <a> na parte superior da página, cada um levando para uma seção diferente da mesma página (use IDs como no Exercício 1).
 Aplique estilos nas pseudo-classes para tornar o menu interativo, ajustando cores e efeitos para os estados :hover e :active.
