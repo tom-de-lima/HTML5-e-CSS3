@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    background-color: #7c7979;
+    color: antiquewhite;
+    text-align: center;
+    padding: 16px;
+
+}
+
+footer {
+
+    background-color: #7c7979;
+    color: antiquewhite;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    bottom: fixed;
+    padding: 12px;
+    position: fixed;
+    bottom: 0;
+
+}
+
+div {
+    margin: 14px;
+    padding: 16px;
+}
+
+ul, ol {
+    margin: 10px;
+}

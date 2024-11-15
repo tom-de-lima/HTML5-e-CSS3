@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #464444;
+    color: #c9ccc4;
+    margin: 0;
+    padding: 16px;
+}
+
+footer {
+    background-color: #464444;
+    color: #c9ccc4;
+    margin: 0;
+    padding: 16px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+

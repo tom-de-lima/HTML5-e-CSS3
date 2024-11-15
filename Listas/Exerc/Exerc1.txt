@@ -1,0 +1,16 @@
+Exercício 1: Personalizando Listas com CSS
+
+Objetivo: Explorar as propriedades de estilo das listas e aplicar diferentes tipos de marcadores.
+
+Tarefas:
+
+Crie uma página HTML com três listas desordenadas (<ul>), cada uma com ao menos três itens.
+Aplique diferentes estilos de marcador para cada lista usando a propriedade list-style-type:
+Use circle para a primeira lista.
+Use square para a segunda lista.
+Use none para a terceira lista (deixando-a sem marcadores).
+Adicione uma lista ordenada (<ol>) abaixo dessas três listas e experimente os diferentes valores do atributo type (I, a, 1, A).
+Personalize a cor dos marcadores usando CSS para dar um visual diferenciado a cada lista.
+
+Dica: Utilize a propriedade color em CSS para diferenciar visualmente os marcadores de cada lista.
+

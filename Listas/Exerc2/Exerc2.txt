@@ -1,0 +1,12 @@
+Exercício 2: Criando Listas Aninhadas para uma Estrutura de Tópicos
+
+Objetivo: Praticar a criação de listas aninhadas e entender a hierarquia dentro das listas.
+
+Tarefas:
+
+Crie uma nova seção (<section>) com um título <h2> chamado "Estrutura de Tópicos".
+Dentro dessa seção, crie uma lista ordenada (<ol>) com três tópicos principais, cada um representado como um item <li>.
+Para cada tópico principal, crie uma lista desordenada (<ul>) com pelo menos dois subtópicos.
+Adicione mais um nível aninhado dentro de um dos subtópicos usando uma lista ordenada (<ol>).
+
+Experimente diferentes estilos de marcadores para cada nível usando o atributo type no HTML ou o estilo list-style-type no CSS.
