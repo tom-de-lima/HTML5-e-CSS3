@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Criando Formulários e Inputs</title>
+</head>
+<body>
+    <header>
+        <h1>Formulários e Inputs em HTML</h1>
+    </header>
+    <section>
+        <div>
+            <h2>Área de Login</h2>
+            <form action="/Formulários/Páginas/login.htm" method="get">
+                <h3>Variações do Input "text"</h3>
+
+                <label for="cor">Selecionar cor</label>
+                <input type="color" name="cor" id="cor">
+                <br>
+                <label for="date">Escolha a data</label>
+                <input type="date" name="data" id="date">
+                <br>
+                <label for="date2">Data e tempo</label>
+                <input type="datetime-local" name="date_e_time" id="date2">
+                <br>
+                <label for="number">núemros</label>
+                <input type="number" name="numero"  id="number">
+                <br>
+                <label for="range">Amplitude</label>
+                <input type="range" name="ampitude" id="range">
+                <br>
+                <h3>Select - um tipo de Input</h3>
+                <select name="select" id="sel">
+                    <option value="Teste de opcao1">Opção 1</option>
+                    <option value="Teste de opcao2">Opção 2</option>
+                    <option value="Teste de opcao3">Opção 3</option>
+                    <option value="Valor Padrão opcao4" selected>Opção 4  - Padrão</option>
+                </select>
+                <input type="submit">
+            </form>
+        </div>
+        <div>
+            <h2>Área de Cadastro</h2>
+            <form action="/Formulários/Páginas/cadastro.html" method="GET">
+
+                <label for="name">Digite o nome do usuário</label>
+                <input type="text" name="usuario" id="name" value="texto padrão">
+                <br>
+                <label for="email">Digite o e-mail</label>
+                <input type="email" name="email" id="email" placeholder="digite email">
+                <br>
+                <label for="password">Digite a senha</label>
+                <input type="password" name="senha" id="password">
+                <br>
+                <label for="marcar">Marque uma opção</label>
+                <input type="radio" name="opcao" id="marcar1" value="opcao1">
+                <input type="radio" name="opcao" id="marcar1" value="opcao2">
+                <br>
+                <label for="box">Selecione</label>
+                <input type="checkbox" name="aceitar" id="box">
+                <br>
+                <input type="submit" value="Cadastrar">
+            </form>
+        </div>
+    </section>
+</body>
+<footer>
+    <p>Todos os direitos reservados &copy; 2022</p>
+</footer>
+</html>
