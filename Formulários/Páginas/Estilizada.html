@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Estilizada.css">
+    <title>Estilização de Formulário com CSS</title>
+</head>
+<body>
+    <header>
+        <h1>Página de Teste com Estilização de Formulário com CSS</h1>
+    </header>
+    <section>
+        <h2>Área de Cadastro</h2>
+        
+        <form action="./login.htm" method="get">
+            <label for="name">
+                Nome Completo: <br>
+                <input type="text" name="nome" id="name">
+            </label>
+
+            <label for="description">
+                Descrição: <br>
+                <textarea name="descricao" id="description"></textarea>
+            </label>
+
+            <label for="">
+                Categoria: <br>
+                <select name="categoria" id="">
+                    <option value="1">Opção 1</option>
+                    <option value="2">Opção 2</option>
+                    <option value="3">Opção 3</option>
+                    <option value="4">Opção 4</option>
+                    <option value="5">Opção 5</option>
+                </select>
+            </label>
+
+            <label for="">
+                <input type="checkbox" id="check">
+                Eu declaro que li e aceito todos <a href="./termos.html" target="_blank" id="link">os termos.</a> 
+            </label>
+            <br>
+
+            <button>Fazer Cadastro</button>
+        </form>
+    </section>
+</body>
+</html>
