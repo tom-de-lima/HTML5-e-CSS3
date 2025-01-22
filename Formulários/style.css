@@ -37,3 +37,9 @@ footer {
     bottom: 0;
     text-align: center;
 }
+
+fieldset {
+    border: 2pxe;
+    padding: 20px;
+    background-color: #dbd7d7;
+}

@@ -71,6 +71,47 @@
                 <input type="submit" value="Cadastrar">
             </form>
         </div>
+        <hr style="height: 10px;">
+        <div>
+            <form action="POST">
+                <input type="hidden" name="campoOculto" id="hidden" value="ID_TOKEN_ou_outro">
+                <fieldset>
+                    <legend style="font-weight: bold;">Dados Pessoais</legend>
+                    <label for="first_name"> 
+                    Primeiro Nome:
+                    <input type="text" name="nome" id="first_name" required>
+                    </label>
+                    <br>
+                    <label for="post_name">
+                        Sobrenome:
+                        <input type="text" name="sobrenome" id="post_name" required>
+                    </label>
+                    <br>
+                    <label for="age">Idade:
+                        <input type="number" name="idade" id="age" step="2" min="18" max="100">
+                    </label>
+                    <br>
+                    <label for="date">Data nascimento:
+                        <input type="date" name="dataNascimento" id="date" min="2012-01-01">
+                    </label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <Legend style="font-weight: bold;">Dados na Empresa</Legend>
+                    <label for="emp_name"> 
+                    Nome da Empresa:
+                    <input type="text" name="nome" id="emp_name" required>
+                    </label>
+                    <br>
+                    <label for="cargo">
+                        Cargo na Empresa:
+                        <input type="text" name="sobrenome" id="cargo" required>
+                    </label>
+                </fieldset>
+                <br>
+                <input type="submit" value="Cadastrar">
+            </form>
+        </div>
     </section>
 </body>
 <footer>
