@@ -12,13 +12,14 @@
         <p>Estudar e aplicar as pseudo-classes :link, :visited, :hover e :active para controlar a aparência dos links.</p>
     </section>
     <div>
-        <a href="https://www.google.com.br/">Uso da do link</a>
+        <a href="https://www.google.com.br/" target="_blank" rel="noopener noreferrer">Uso do link</a>
         <br>
-        <a href="https://copilot.microsoft.com/onboarding">Uso do Hover</a>
+        <a href="https://copilot.microsoft.com/onboarding" target="_blank" rel="noopener noreferrer">Uso do Hover</a>
         <br>
-        <a href="https://gemini.google.com/app?hl=pt-BR">Uso do Visited</a>
+        <a href="https://gemini.google.com/app?hl=pt-BR" target="_blank" rel="noopener noreferrer">Uso do Visited</a>
         <br>
-        <a href="https://claude.ai/login?returnTo=%2F%3F">Uso do active</a>
+        <a href="https://claude.ai/login?returnTo=%2F%3F" target="_blank" rel="noopener noreferrer">Uso do active</a>
+        <!--A linha de código tem um problema de segurança ao usar target="_blank" sem rel="noopener noreferrer", tornando-a vulnerável a ataques de tabnabbing. Ao corrigir isso, você melhora a segurança do site e a experiência geral do usuário.-->
     </div>
     
 </body>
